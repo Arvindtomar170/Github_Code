@@ -1,0 +1,34 @@
+{
+	// Place your snippets for cpp here. Each snippet is defined under a snippet name and has a prefix, body and 
+	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
+	// same ids are connected.
+	// Example:
+	"cp": {
+		"prefix": "cp",
+		"body": [
+			"#include<bits/stdc++.h>",
+			"using namespace std;",
+			"typedef long long ll;",
+			"",
+			"/* ----------------------- for using PBDS(policy base data structure) -------------------*/",
+			"       //using namespace __gnu_pbds;",
+			"       //#include<ext/pb_ds/assoc_container.hpp>",
+			"       //#include<ext/pb_ds/tree_policy.hpp>",
+			"       //typedef tree<int, null_type, less_equal<int>, rb_tree_tag, tree_order_statistics_node_update> pbds; // find_by_order, order_of_key (0 based indexing)",
+			"/*----------------------------------------------------------------------------------------*/",
+			"",
+			"void solve(){",
+			"        $0",
+			"    }",
+			"",
+			"int32_t main(){",
+			"        ios_base::sync_with_stdio(false);cin.tie(NULL);int test=1;",
+			"        cin>>test$1;",
+			"        while(test--)solve();",
+			"        return 0;",
+			"    }",
+		],
+		"description": "Log output to console"
+	}
+}
